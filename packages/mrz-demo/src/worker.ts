@@ -27,7 +27,7 @@ const api = {
       const image = decode(bytes);
 
       const result = await scanMrz(image, {
-        modelPath: '/mrz-cnn.onnx',
+        modelPath: import.meta.env.BASE_URL + 'mrz-cnn.onnx',
         onProgress: (stage) => {
           self.postMessage({ type: 'progress', stage });
         },

@@ -4,6 +4,8 @@ Detect, OCR, and parse Machine Readable Zones (MRZ) from passport and ID-documen
 images. Runs entirely client-side — in the browser, in Node.js, or from the
 command line. No document data ever leaves the machine.
 
+**Live demo:** https://alsenet-labs.github.io/mrz-scanner/
+
 Based on [mrz-detection](https://github.com/image-js/mrz-detection) by
 [Daniel Kostro](https://github.com/stropitek) and
 [Michael Zasso](https://github.com/targos); rewritten as a TypeScript pnpm
