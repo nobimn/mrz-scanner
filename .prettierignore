@@ -1,0 +1,7 @@
+dist/
+node_modules/
+*.json
+pnpm-lock.yaml
+src/
+gulpfile.js
+static-fs*.js
