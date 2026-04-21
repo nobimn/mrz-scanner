@@ -4,10 +4,6 @@ build/
 *.tsbuildinfo
 .vite/
 
-# Legacy files from v1.x (kept for reference)
-_legacy/
-static-fs-data.json
-
 # Python
 __pycache__/
 *.pyc
