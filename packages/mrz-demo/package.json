@@ -1,0 +1,26 @@
+{
+  "name": "@mrz-scanner/demo",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Browser demo for MRZ scanning",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mrz-scanner/core": "workspace:*",
+    "@mrz-scanner/detection": "workspace:*",
+    "@mrz-scanner/ocr": "workspace:*",
+    "@mrz-scanner/scanner": "workspace:*",
+    "comlink": "^4.4.2",
+    "image-js": "^1.5.0",
+    "onnxruntime-web": "^1.24.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.0",
+    "vite": "^8.0.0"
+  },
+  "license": "AGPL-3.0-or-later"
+}
