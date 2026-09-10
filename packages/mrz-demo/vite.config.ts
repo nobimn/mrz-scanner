@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
   root: '.',
-  base: '/mrz-scanner/',
+  base: '/',
   server: {
     host: ['localhost', '10.33.33.3'],
   },
